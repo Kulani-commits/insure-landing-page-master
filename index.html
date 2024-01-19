@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   
   <title>Frontend Mentor | Insure landing page</title>
 
@@ -15,20 +16,40 @@
   </style>
 </head>
 <body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-rgb">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#"> How we work</a>
+            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#">Account</a>
+            <a class="nav-link" hfre="#">View plans</a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-  How we work
-  Blog
-  Account
-  View plans
+  </div>
+  <div class="container-fluid">
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container py-5">
+        <h1 class="display-5 fw-bold"> Humanizing your insurance.</h1>
+        <p class="col-md-8 fs-4">Get your life insurance coverage easier and faster. We blend our expertise 
+          and technology to help you find the plan that’s right for you. Ensure you 
+          and your loved ones are protected.</p>
 
-  Humanizing your insurance.
+          <button class="btn btn-primary btn-lg" type="button"> View plans</button>
+      </div>
 
-  Get your life insurance coverage easier and faster. We blend our expertise 
-  and technology to help you find the plan that’s right for you. Ensure you 
-  and your loved ones are protected.
 
-  View plans
-
+    </div>
+  </div>
+  
   We’re different
 
   Snappy Process
@@ -81,5 +102,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
