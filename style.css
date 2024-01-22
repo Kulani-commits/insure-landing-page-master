@@ -1,3 +1,13 @@
-.container-fluid{
+.back{
     background-color:hsl(216, 30%, 68%);
+}
+.inside-cont{
+  
+    margin-left: 10%;
+}
+.img-card{
+    width: 5em;
+}
+.bottom-block{
+    margin-top: 10rem;
 }
